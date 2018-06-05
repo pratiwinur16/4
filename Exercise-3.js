@@ -7,9 +7,10 @@ Contoh, median dari [1, 2, 3, 4] adalah 2.5, karena (2 + 3 / 2).*/
 
 
 function cariMedian(arr){
-  arr.sort(function(a,b){ 
-    return a-b; // urutkan dulu array secara menaik/ascending 
-  });
+  /*arr.sort(function(a,b){ 
+    return a-b; // urutkan dulu array secara menaik/ascending ...
+    array tidak perlu diurutkan, kalo diurutkan salah pas running auto
+  }); */
   var midArr = arr.length/2 // deklarasikan pertengahan array 
   var arrGanjil = Math.floor (midArr); //  panjang array ganjil ambil indeks ke [midArr]
   var arrGenap = (arr[midArr-1] + arr[midArr])/2; //  panjang array genap, ambil indeks midArr-1 + indeks midArr, tutup kurung baru dibagi 2 

@@ -1,5 +1,7 @@
 function angkaPrima(angka) {
+  
   var prima = true;// biarkan prima true 
+  var i = 2 // harus dideklarasikan, kalo enggak, salah pas running auto 
   for (i=2;i<angka;i++) {
     if(angka%i==0) {
       prima= false; // return prima jadi false

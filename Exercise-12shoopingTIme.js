@@ -36,7 +36,7 @@ function shoppingTime(memberId, money) {
   
    }
   }
-  //pembeli.changeMoney =sisa;
+
 return pembeli ; 
 } 
 
